@@ -15,7 +15,7 @@ function crearUsuario() {
          this.usuario = usuario;
          this.nombre = nombre;
          this.email = email;
-         this.password = passsword;
+         this.password = password;
       }
 
       saludar(){
@@ -47,7 +47,7 @@ function agregarStringInvertida() {
       for(let i=arr.length-1; i>=0; i--){
          arr1.push(arr[i]);
       }
-      return arr1.toString();
+      return arr1.join('').toString();
    }
 }
 
